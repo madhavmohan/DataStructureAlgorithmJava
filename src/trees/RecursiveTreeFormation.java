@@ -18,9 +18,9 @@ public class RecursiveTreeFormation {
 	}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int[] ar= {1,2,3,5,4,11,12};
+		int[] ar= {1,2,0,3};
 		
-		System.out.println(arrayToTree(ar,0).right.right.data);
+		System.out.println(arrayToTree(ar,0).data);
 
 	}
 
